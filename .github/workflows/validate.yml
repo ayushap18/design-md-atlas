@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install pyyaml
-      - run: python3 scripts/build_index.py && git diff --exit-code README.md
+      - run: python3 scripts/build_index.py && git diff --exit-code

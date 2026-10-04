@@ -1,0 +1,67 @@
+collections	VoltAgent/awesome-design-md	119483	A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.	https://github.com/VoltAgent/awesome-design-md
+collections	VoltAgent/awesome-claude-design	3964	Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one in, scaffold a full UI in one shot.	https://github.com/VoltAgent/awesome-claude-design
+collections	VoltAgent/official-design-md	520	Official DESIGN.md files published by companies themselves. First-party design systems that AI agents read to generate consistent UI.	https://github.com/VoltAgent/official-design-md
+collections	bergside/awesome-design-skills	3039	List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools	https://github.com/bergside/awesome-design-skills
+collections	rohitg00/awesome-claude-design	1124	Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes.	https://github.com/rohitg00/awesome-claude-design
+collections	kzhrknt/awesome-design-md-jp	985	日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection for AI agents — extending Google Stitch format with CJK typography.	https://github.com/kzhrknt/awesome-design-md-jp
+collections	Meliwat/awesome-ios-design-md	568	200 production-grade DESIGN.md design systems for the world's best apps. Framework-neutral plus SwiftUI, Jetpack Compose, and Expo. Hand one to your AI agent, ship pixel-matched UI.	https://github.com/Meliwat/awesome-ios-design-md
+collections	kwakseongjae/oh-my-design	529	Give your AI coding agent a design system. One command installs 500+ quality-graded company DESIGN.md references + skills into Claude Code, Codex, Cursor, and OpenCode. Free, MIT, zero AI calls.	https://github.com/kwakseongjae/oh-my-design
+collections	HU-UH/awesome-design-md	440	55个精选网站设计系统 DESIGN.md，可给AI Agent使用生成匹配UI	https://github.com/HU-UH/awesome-design-md
+collections	ricocc/brands-design-md	153	Brands DESIGN.md library	https://github.com/ricocc/brands-design-md
+collections	fchangjun/awesome-design-md-cn	145	Stitch 提出的设计系统文档格式 —— 用纯文本 Markdown 记录设计系统，让 AI 编码 Agent 能够生成风格一致的 UI。	https://github.com/fchangjun/awesome-design-md-cn
+collections	scroobius-pip/fudge-design-md	112	DESIGN.md guides generated from real website references captured by Fudge.	https://github.com/scroobius-pip/fudge-design-md
+collections	SpaceZephyr/brand-design-md	109	A Claude Code Skill that gives your AI agent the design language of 62 world-class brands — on demand.	https://github.com/SpaceZephyr/brand-design-md
+collections	educlopez/design-bites	81	Curated DESIGN.md files for inspiring websites — design systems decoded for AI agents. By Sparkbites.	https://github.com/educlopez/design-bites
+collections	xjli360/awesome-design-md-ecommerce	15	The largest DESIGN.md collection on GitHub — 1,632 real e-commerce brand design systems your AI coding agent can read to build on-brand UI: colors, typography, spacing, components.	https://github.com/xjli360/awesome-design-md-ecommerce
+collections	SlideSpeak/presentation-design-prompts	166	Free presentation slide design.md you can paste into ChatGPT, Claude or any of your AI tools.	https://github.com/SlideSpeak/presentation-design-prompts
+collections	arumwu/design-md-skill	14	A Claude/agent skill: 74 real-world brand design systems (Claude, Linear, Stripe, Apple, Tesla, Spotify…) as a pick-and-build DESIGN.md reference library. Built on voltagent/awesome-design-md.	https://github.com/arumwu/design-md-skill
+collections	taffy-owo/codex-skill-awesome-design-md	13	Codex Skill: 73 brand-inspired DESIGN.md templates for AI coding assistants | 为 AI 编码助手注入品牌级设计直觉	https://github.com/taffy-owo/codex-skill-awesome-design-md
+collections	xueuncia-product/awesome-design-md-cn	5	Chinese-curated cheat sheet of DESIGN.md brand guidelines from 74 top companies — 200 rendered page demos in 9 aesthetic styles. 大厂设计规范速查库（74 品牌 / 200 Demo / 9 风格），基于 VoltAgent/awesome-design-md (MIT)。	https://github.com/xueuncia-product/awesome-design-md-cn
+collections	soulcore-dev/soul-design-md	3	DESIGN.md v2.0 — production-grade design systems for AI agents. Evolution of the Google Stitch DESIGN.md format with states, motion, a11y, and code snippets.	https://github.com/soulcore-dev/soul-design-md
+collections	aaldere1/awesome-design-systems	11	58 world-class design systems (Linear, Stripe, Apple, Vercel, Spotify, Ferrari + 52 more) packaged as a single Paperclip AI agent skill. Based on VoltAgent/awesome-design-md.	https://github.com/aaldere1/awesome-design-systems
+spec	google-labs-code/design.md	28235	A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.	https://github.com/google-labs-code/design.md
+spec	google-labs-code/stitch-skills	8422	A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.	https://github.com/google-labs-code/stitch-skills
+spec	anthropics/skills	179589	Public repository for Agent Skills	https://github.com/anthropics/skills
+spec	design-tokens/community-group	2140	This is the official DTCG repository for the design tokens site and specification.	https://github.com/design-tokens/community-group
+tools	dembrandt/dembrandt	3598	Extract any website’s design system into tokens in seconds: logo, colors, typography, borders & more. One command.	https://github.com/dembrandt/dembrandt
+tools	bergside/design-md-chrome	2965	Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI	https://github.com/bergside/design-md-chrome
+tools	bergside/design-md-figma	153	Figma plugin that extracts local style guidelines and generates DESIGN.md and SKILL.md files for AI tools such as Claude Code, Codex, Cursor, and other AI tools	https://github.com/bergside/design-md-figma
+tools	bergside/typeui	2010	Build better UI with AI	https://github.com/bergside/typeui
+tools	Railly/tinte	623	Compile your design system into an Agent Plugin. Extract an identity from any reference, emit SKILL.md + tokens.css, lint what bypasses your tokens.	https://github.com/Railly/tinte
+tools	Paidax01/web-to-design-md	433	Convert any official website to design.md document	https://github.com/Paidax01/web-to-design-md
+tools	redongreen/uSpec	244	Generate design system documentation for your UI components, directly from your AI agent. Renders into Figma or a portable .md file. Works with Cursor, Claude Code, and Codex.	https://github.com/redongreen/uSpec
+tools	arvindrk/extract-design-system	232	Extract design tokens (colors, typography, spacing, border radius, shadows) from any public website. Generates JSON and CSS custom properties for local projects. Available as an AI agent skill (Claude, Cursor, Codex) and standalone CLI.	https://github.com/arvindrk/extract-design-system
+tools	uxKero/anydesign	214	Claude skill that analyzes images, websites, and Figma files and generates a structured design.md with token system, component inventory, and reconstruction notes.	https://github.com/uxKero/anydesign
+tools	shaom/brand-to-design-md-skill	202	A portable local skill that turns a public brand URL into a source-aware DESIGN.md, extracting visual evidence into design tokens, component guidance, usage boundaries, and optional responsive demo verification.	https://github.com/shaom/brand-to-design-md-skill
+tools	fivetaku/insane-design	134	URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report	https://github.com/fivetaku/insane-design
+tools	ricocc/ricoui-design-md	106	ricoui-design-md is a local-first design-system workspace built around `DESIGN.md`.	https://github.com/ricocc/ricoui-design-md
+tools	jpoindexter/design-md-extractor	63	Extract a website's visual system — colors, type, spacing, components — into a DESIGN.md, design tokens, and AI-ready prompts. CLI + local GUI.	https://github.com/jpoindexter/design-md-extractor
+tools	jasonhnd/design-md-generator	14	Generate publication-quality DESIGN.md files from any website URL. Extract computed styles, structured tokens, and layout patterns into a unified reference for AI UI coding agents.	https://github.com/jasonhnd/design-md-generator
+tools	Kargatharaakash/website-design-systems-mcp	17	Extract complete design systems from any website and generate AI-ready skill.md files	https://github.com/Kargatharaakash/website-design-systems-mcp
+tools	ropean/awesome-design-md-preview	3	Visual gallery for awesome-design-md — browse, search, and download DESIGN.md files from 58 real products.	https://github.com/ropean/awesome-design-md-preview
+tools	HagiCode-org/awesome-design-md-site	2	Astro gallery site for browsing, previewing, and documenting entries from the awesome-design-md collection.	https://github.com/HagiCode-org/awesome-design-md-site
+tools	moesuito/claude-skill-design-md	3	Claude Code skill: turn any visual identity into a paired DESIGN.md + design-showcase.html. Built on the awesome-design-md format.	https://github.com/moesuito/claude-skill-design-md
+tools	DonkeyKing01/tasteful-ui-skill	16	A taste-first UI design skill for coding agents: explore visual direction through references, translate taste into executable design docs, and keep implementation grounded in real project context. Inspired by Claude Design, awesome-design-md, and Google design.md.	https://github.com/DonkeyKing01/tasteful-ui-skill
+tools	style-dictionary/style-dictionary	4849	A build system for creating cross-platform styles.	https://github.com/style-dictionary/style-dictionary
+tools	tokens-studio/figma-plugin	1617	Official repository of the plugin 'Tokens Studio for Figma' (Figma Tokens)	https://github.com/tokens-studio/figma-plugin
+ds	alexpate/awesome-design-systems	26063	💅🏻 ⚒ A collection of awesome design systems	https://github.com/alexpate/awesome-design-systems
+ds	klaufel/awesome-design-systems	892	📒 A curated list of bookmarks, resources and articles about design systems focused on developers.	https://github.com/klaufel/awesome-design-systems
+ds	carbon-design-system/carbon	9518	A design system built by IBM	https://github.com/carbon-design-system/carbon
+ds	primer/react	3911	An implementation of GitHub's Primer Design System using React	https://github.com/primer/react
+ds	primer/primitives	412	Color, typography, and spacing primitives in json.	https://github.com/primer/primitives
+ds	microsoft/fluentui	20308	Fluent UI web represents a collection of utilities, React components, and web components for building web applications.	https://github.com/microsoft/fluentui
+ds	material-components/material-web	11308	Material Design Web Components	https://github.com/material-components/material-web
+ds	adobe/react-spectrum	15911	A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.	https://github.com/adobe/react-spectrum
+ds	elastic/eui	6371	Elastic UI Framework 🙌	https://github.com/elastic/eui
+ds	alphagov/govuk-frontend	1466	GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services.	https://github.com/alphagov/govuk-frontend
+ds	uswds/uswds	7209	The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites.	https://github.com/uswds/uswds
+ds	salesforce-ux/design-system	3702	Salesforce Lightning Design System	https://github.com/salesforce-ux/design-system
+ds	ant-design/ant-design	99672	An enterprise-class UI design language and React UI library	https://github.com/ant-design/ant-design
+ds	shadcn-ui/ui	125073	Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.	https://github.com/shadcn-ui/ui
+ds	radix-ui/themes	8741	Radix Themes is an open-source component library optimized for fast development, easy maintenance, and accessibility. Maintained by @workos.	https://github.com/radix-ui/themes
+ds	radix-ui/primitives	19359	Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.	https://github.com/radix-ui/primitives
+ds	chakra-ui/chakra-ui	40674	Chakra UI is a component system for building SaaS products with speed ⚡️	https://github.com/chakra-ui/chakra-ui
+ds	heroui-inc/heroui	30856	🚀 Beautiful, fast and modern React UI library. (Previously NextUI)	https://github.com/heroui-inc/heroui
+ds	saadeghi/daisyui	42533	🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library	https://github.com/saadeghi/daisyui
+ds	tailwindlabs/tailwindcss	97763	A utility-first CSS framework for rapid UI development.	https://github.com/tailwindlabs/tailwindcss
+ds	twbs/bootstrap	174988	The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.	https://github.com/twbs/bootstrap
