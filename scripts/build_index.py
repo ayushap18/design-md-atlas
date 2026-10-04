@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Validate every design-md/**/DESIGN.md and regenerate everything derived from them:
-README catalog, palette swatches, banner, REPOS.md and the site data (docs/data.json).
+README catalog, palette swatches, banner, REPOS.md and the site data (site/src/data/atlas.json).
 
 Usage: pip install pyyaml && python3 scripts/build_index.py
 """
@@ -26,6 +26,7 @@ CATS = {
 REPO_GROUPS = {"collections": "DESIGN.md collections", "spec": "Specs & standards",
                "tools": "Generators, extractors & tooling",
                "ds": "Open-source design systems (source material)"}
+GENERIC = re.compile(r"^(ui-[\w-]+|system-ui|-apple-system|BlinkMacSystemFont|sans-serif|serif|monospace|inherit)$", re.I)
 COLOR = re.compile(r"^(#[0-9a-fA-F]{3,8}|rgba?\([^)]*\))$")
 
 
@@ -132,7 +133,8 @@ def main():
         fm = frontmatter(text)
         fonts = []
         for t in (fm.get("typography") or {}).values():
-            fam = str(t.get("fontFamily", "")).split(",")[0].strip().strip("'\"") if isinstance(t, dict) else ""
+            fams = [x.strip().strip("'\"") for x in str(t.get("fontFamily", "")).split(",")] if isinstance(t, dict) else []
+            fam = next((x for x in fams if x and not GENERIC.match(x)), "")
             if fam and fam not in fonts:
                 fonts.append(fam)
         entries.append(dict(
@@ -185,8 +187,8 @@ def main():
                 for x in repos if x["group"] == g]
         out.append("")
     (ROOT / "REPOS.md").write_text("\n".join(out))
-    (ROOT / "docs").mkdir(exist_ok=True)
-    (ROOT / "docs/data.json").write_text(json.dumps(dict(
+    (ROOT / "site/src/data").mkdir(parents=True, exist_ok=True)
+    (ROOT / "site/src/data/atlas.json").write_text(json.dumps(dict(
         repo=REPO, categories={c: dict(label=l, color="#" + col) for c, (l, col) in CATS.items()},
         repoGroups=REPO_GROUPS, files=entries, repos=repos), separators=(",", ":"), default=str))
 

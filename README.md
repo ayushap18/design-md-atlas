@@ -298,6 +298,14 @@ components:
 2. Run `pip install pyyaml && python3 scripts/build_index.py`. This validates every file and regenerates the catalog, palette swatches, banner and website data.
 3. Open a PR. CI runs the same check.
 
+### Website
+
+The [Atlas site](https://ayushap18.github.io/design-md-atlas/) lives in [`site/`](site). It's built with Next.js (static export), [shadcn/ui](https://ui.shadcn.com) and [Magic UI](https://magicui.design), and deploys to GitHub Pages on every push to `main`.
+
+```bash
+cd site && npm install && npm run dev   # http://localhost:3000
+```
+
 ## ⚠️ Disclaimer
 
 Brand files are **inspired by** public websites. They are **not official** design documents, and all trademarks belong to their owners. Values are approximations meant for building UI *in a similar spirit*, not for impersonating a brand. Public design-system files (Carbon, Primer, Material, GOV.UK…) reference those systems' openly published tokens.
